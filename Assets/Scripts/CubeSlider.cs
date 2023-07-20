@@ -25,6 +25,6 @@ public class CubeSlider : MonoBehaviour
         //     transform.position += Vector3.back * speed;
         // }
         
-        transform.localRotation*=Quaternion.Euler(0,slider.value* 360 * -Time.deltaTime* 1.1f,0);
+        //transform.localRotation*=Quaternion.Euler(0,slider.value* 360 * -Time.deltaTime* 1.1f,0);
     }
 }

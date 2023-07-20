@@ -15,14 +15,17 @@ public class PlaneMover : MonoBehaviour
         {
             transform.Rotate(Vector3.left * (Time.deltaTime * rotationSpeed));
         }
+        
         if (Input.GetKey(KeyCode.S))
         {
             transform.Rotate(Vector3.right * (Time.deltaTime * rotationSpeed));
         }
+        
         if (Input.GetKey(KeyCode.D))
         {
             transform.Rotate(Vector3.up * (Time.deltaTime * rotationSpeed));
         }
+        
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(Vector3.down * (Time.deltaTime * rotationSpeed));
