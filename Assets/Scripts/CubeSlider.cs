@@ -9,6 +9,7 @@ public class CubeSlider : MonoBehaviour
     [Range(0,1)]
     public float speed = 0.5f;
     
+    /*
     void Update()
     {
         //transform.position = transform.position + Vector3.forward;
@@ -27,4 +28,5 @@ public class CubeSlider : MonoBehaviour
         
         //transform.localRotation*=Quaternion.Euler(0,slider.value* 360 * -Time.deltaTime* 1.1f,0);
     }
+    */
 }
